@@ -57,7 +57,7 @@ namespace Presentacion
 
         } // fin del método limpiarCampos
 
-        protected void btnActualizar_Click(object sender, EventArgs e)
+        protected void btnGuardar_Click(object sender, EventArgs e)
         {
 
             Negocio.usuarioNegocio dc = null;
