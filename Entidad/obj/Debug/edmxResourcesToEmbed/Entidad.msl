@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CursoNetModelStoreContainer" CdmEntityContainer="CursoNetEntities">
+    <EntitySetMapping Name="Alumno">
+      <EntityTypeMapping TypeName="CursoNetModel.Alumno">
+        <MappingFragment StoreEntitySet="Alumno">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="carne" ColumnName="carne" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="fecha_nacimiento" ColumnName="fecha_nacimiento" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="correo_electronico" ColumnName="correo_electronico" />
+          <ScalarProperty Name="fecha_proceso" ColumnName="fecha_proceso" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="fecha_baja" ColumnName="fecha_baja" />
+          <ScalarProperty Name="id_carrera" ColumnName="id_carrera" />
+          <ScalarProperty Name="usuario" ColumnName="usuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Alumno_Asignatura">
+      <EntityTypeMapping TypeName="CursoNetModel.Alumno_Asignatura">
+        <MappingFragment StoreEntitySet="Alumno_Asignatura">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="id_alumno" ColumnName="id_alumno" />
+          <ScalarProperty Name="id_asignatura" ColumnName="id_asignatura" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Asignatura">
+      <EntityTypeMapping TypeName="CursoNetModel.Asignatura">
+        <MappingFragment StoreEntitySet="Asignatura">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="fecha_proceso" ColumnName="fecha_proceso" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Carrera">
+      <EntityTypeMapping TypeName="CursoNetModel.Carrera">
+        <MappingFragment StoreEntitySet="Carrera">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="fecha_inicio" ColumnName="fecha_inicio" />
+          <ScalarProperty Name="fecha_cierre" ColumnName="fecha_cierre" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="fecha_proceso" ColumnName="fecha_proceso" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Carrera_Asignatura">
+      <EntityTypeMapping TypeName="CursoNetModel.Carrera_Asignatura">
+        <MappingFragment StoreEntitySet="Carrera_Asignatura">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="id_carrera" ColumnName="id_carrera" />
+          <ScalarProperty Name="id_asignatura" ColumnName="id_asignatura" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuarios">
+      <EntityTypeMapping TypeName="CursoNetModel.Usuarios">
+        <MappingFragment StoreEntitySet="Usuarios">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="login" ColumnName="login" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="clave" ColumnName="clave" />
+          <ScalarProperty Name="correo_electronico" ColumnName="correo_electronico" />
+          <ScalarProperty Name="fecha_proceso" ColumnName="fecha_proceso" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

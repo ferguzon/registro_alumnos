@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CursoNetModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Alumno">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="carne" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="80" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="direccion" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="fecha_nacimiento" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="telefono" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="correo_electronico" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="fecha_proceso" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="estado" Type="Int32" Nullable="false" />
+    <Property Name="fecha_baja" Type="DateTime" Precision="3" />
+    <Property Name="id_carrera" Type="Int32" Nullable="false" />
+    <Property Name="usuario" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Alumno_Asignatura" Relationship="Self.FK_Alumno_Asignatura_Alumno" FromRole="Alumno" ToRole="Alumno_Asignatura" />
+    <NavigationProperty Name="Carrera" Relationship="Self.FK_Alumno_Carrera" FromRole="Alumno" ToRole="Carrera" />
+  </EntityType>
+  <EntityType Name="Alumno_Asignatura">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_alumno" Type="Int32" Nullable="false" />
+    <Property Name="id_asignatura" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Alumno" Relationship="Self.FK_Alumno_Asignatura_Alumno" FromRole="Alumno_Asignatura" ToRole="Alumno" />
+    <NavigationProperty Name="Asignatura" Relationship="Self.FK_Alumno_Asignatura_Asignatura" FromRole="Alumno_Asignatura" ToRole="Asignatura" />
+  </EntityType>
+  <EntityType Name="Asignatura">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="descripcion" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="fecha_proceso" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Alumno_Asignatura" Relationship="Self.FK_Alumno_Asignatura_Asignatura" FromRole="Asignatura" ToRole="Alumno_Asignatura" />
+    <NavigationProperty Name="Carrera_Asignatura" Relationship="Self.FK_Carrera_Asignatura_Asignatura" FromRole="Asignatura" ToRole="Carrera_Asignatura" />
+  </EntityType>
+  <EntityType Name="Carrera">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="descripcion" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="fecha_inicio" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="fecha_cierre" Type="DateTime" Precision="3" />
+    <Property Name="estado" Type="Int32" Nullable="false" />
+    <Property Name="fecha_proceso" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Alumno" Relationship="Self.FK_Alumno_Carrera" FromRole="Carrera" ToRole="Alumno" />
+    <NavigationProperty Name="Carrera_Asignatura" Relationship="Self.FK_Carrera_Asignatura_Carrera" FromRole="Carrera" ToRole="Carrera_Asignatura" />
+  </EntityType>
+  <EntityType Name="Carrera_Asignatura">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_carrera" Type="Int32" Nullable="false" />
+    <Property Name="id_asignatura" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Asignatura" Relationship="Self.FK_Carrera_Asignatura_Asignatura" FromRole="Carrera_Asignatura" ToRole="Asignatura" />
+    <NavigationProperty Name="Carrera" Relationship="Self.FK_Carrera_Asignatura_Carrera" FromRole="Carrera_Asignatura" ToRole="Carrera" />
+  </EntityType>
+  <EntityType Name="Usuarios">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="login" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="80" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="clave" Type="String" MaxLength="32" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="correo_electronico" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="fecha_proceso" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <Association Name="FK_Alumno_Asignatura_Alumno">
+    <End Role="Alumno" Type="Self.Alumno" Multiplicity="1" />
+    <End Role="Alumno_Asignatura" Type="Self.Alumno_Asignatura" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Alumno">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Alumno_Asignatura">
+        <PropertyRef Name="id_alumno" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Alumno_Carrera">
+    <End Role="Carrera" Type="Self.Carrera" Multiplicity="1" />
+    <End Role="Alumno" Type="Self.Alumno" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Carrera">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Alumno">
+        <PropertyRef Name="id_carrera" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Alumno_Asignatura_Asignatura">
+    <End Role="Asignatura" Type="Self.Asignatura" Multiplicity="1" />
+    <End Role="Alumno_Asignatura" Type="Self.Alumno_Asignatura" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Asignatura">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Alumno_Asignatura">
+        <PropertyRef Name="id_asignatura" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Carrera_Asignatura_Asignatura">
+    <End Role="Asignatura" Type="Self.Asignatura" Multiplicity="1" />
+    <End Role="Carrera_Asignatura" Type="Self.Carrera_Asignatura" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Asignatura">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Carrera_Asignatura">
+        <PropertyRef Name="id_asignatura" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Carrera_Asignatura_Carrera">
+    <End Role="Carrera" Type="Self.Carrera" Multiplicity="1" />
+    <End Role="Carrera_Asignatura" Type="Self.Carrera_Asignatura" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Carrera">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Carrera_Asignatura">
+        <PropertyRef Name="id_carrera" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CursoNetEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Alumno" EntityType="Self.Alumno" />
+    <EntitySet Name="Alumno_Asignatura" EntityType="Self.Alumno_Asignatura" />
+    <EntitySet Name="Asignatura" EntityType="Self.Asignatura" />
+    <EntitySet Name="Carrera" EntityType="Self.Carrera" />
+    <EntitySet Name="Carrera_Asignatura" EntityType="Self.Carrera_Asignatura" />
+    <EntitySet Name="Usuarios" EntityType="Self.Usuarios" />
+    <AssociationSet Name="FK_Alumno_Asignatura_Alumno" Association="Self.FK_Alumno_Asignatura_Alumno">
+      <End Role="Alumno" EntitySet="Alumno" />
+      <End Role="Alumno_Asignatura" EntitySet="Alumno_Asignatura" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Alumno_Carrera" Association="Self.FK_Alumno_Carrera">
+      <End Role="Carrera" EntitySet="Carrera" />
+      <End Role="Alumno" EntitySet="Alumno" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Alumno_Asignatura_Asignatura" Association="Self.FK_Alumno_Asignatura_Asignatura">
+      <End Role="Asignatura" EntitySet="Asignatura" />
+      <End Role="Alumno_Asignatura" EntitySet="Alumno_Asignatura" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Carrera_Asignatura_Asignatura" Association="Self.FK_Carrera_Asignatura_Asignatura">
+      <End Role="Asignatura" EntitySet="Asignatura" />
+      <End Role="Carrera_Asignatura" EntitySet="Carrera_Asignatura" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Carrera_Asignatura_Carrera" Association="Self.FK_Carrera_Asignatura_Carrera">
+      <End Role="Carrera" EntitySet="Carrera" />
+      <End Role="Carrera_Asignatura" EntitySet="Carrera_Asignatura" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

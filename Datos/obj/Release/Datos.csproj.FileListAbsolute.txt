@@ -1,0 +1,14 @@
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Datos\bin\Release\Datos.dll.config
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Datos\bin\Release\Datos.dll
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Datos\bin\Release\Datos.pdb
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Datos\bin\Release\Entidad.dll
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Datos\bin\Release\EntityFramework.dll
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Datos\bin\Release\EntityFramework.SqlServer.dll
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Datos\bin\Release\Entidad.pdb
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Datos\bin\Release\EntityFramework.xml
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Datos\bin\Release\EntityFramework.SqlServer.xml
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Datos\bin\Release\es\EntityFramework.resources.dll
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Datos\bin\Release\es\EntityFramework.SqlServer.resources.dll
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Datos\obj\Release\Datos.csprojResolveAssemblyReference.cache
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Datos\obj\Release\Datos.dll
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Datos\obj\Release\Datos.pdb

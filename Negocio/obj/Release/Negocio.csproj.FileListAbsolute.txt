@@ -1,0 +1,16 @@
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Negocio\bin\Release\Negocio.dll.config
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Negocio\bin\Release\Negocio.dll
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Negocio\bin\Release\Negocio.pdb
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Negocio\bin\Release\Datos.dll
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Negocio\bin\Release\Entidad.dll
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Negocio\bin\Release\EntityFramework.dll
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Negocio\bin\Release\EntityFramework.SqlServer.dll
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Negocio\bin\Release\Datos.pdb
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Negocio\bin\Release\Entidad.pdb
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Negocio\bin\Release\EntityFramework.xml
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Negocio\bin\Release\EntityFramework.SqlServer.xml
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Negocio\bin\Release\es\EntityFramework.resources.dll
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Negocio\bin\Release\es\EntityFramework.SqlServer.resources.dll
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Negocio\obj\Release\Negocio.csprojResolveAssemblyReference.cache
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Negocio\obj\Release\Negocio.dll
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Negocio\obj\Release\Negocio.pdb

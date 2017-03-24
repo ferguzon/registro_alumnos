@@ -1,0 +1,12 @@
+E:\Google Drive\Mis Documentos\Visual Studio 2017\Projects\Registro de alumnos\Entidad\bin\Debug\Entidad.dll.config
+E:\Google Drive\Mis Documentos\Visual Studio 2017\Projects\Registro de alumnos\Entidad\bin\Debug\Entidad.dll
+E:\Google Drive\Mis Documentos\Visual Studio 2017\Projects\Registro de alumnos\Entidad\bin\Debug\Entidad.pdb
+E:\Google Drive\Mis Documentos\Visual Studio 2017\Projects\Registro de alumnos\Entidad\bin\Debug\EntityFramework.dll
+E:\Google Drive\Mis Documentos\Visual Studio 2017\Projects\Registro de alumnos\Entidad\bin\Debug\EntityFramework.SqlServer.dll
+E:\Google Drive\Mis Documentos\Visual Studio 2017\Projects\Registro de alumnos\Entidad\bin\Debug\EntityFramework.xml
+E:\Google Drive\Mis Documentos\Visual Studio 2017\Projects\Registro de alumnos\Entidad\bin\Debug\EntityFramework.SqlServer.xml
+E:\Google Drive\Mis Documentos\Visual Studio 2017\Projects\Registro de alumnos\Entidad\bin\Debug\es\EntityFramework.resources.dll
+E:\Google Drive\Mis Documentos\Visual Studio 2017\Projects\Registro de alumnos\Entidad\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+E:\Google Drive\Mis Documentos\Visual Studio 2017\Projects\Registro de alumnos\Entidad\obj\Debug\Entidad.csprojResolveAssemblyReference.cache
+E:\Google Drive\Mis Documentos\Visual Studio 2017\Projects\Registro de alumnos\Entidad\obj\Debug\Entidad.dll
+E:\Google Drive\Mis Documentos\Visual Studio 2017\Projects\Registro de alumnos\Entidad\obj\Debug\Entidad.pdb

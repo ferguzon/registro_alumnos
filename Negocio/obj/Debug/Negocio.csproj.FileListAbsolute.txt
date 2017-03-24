@@ -1,0 +1,34 @@
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Negocio\bin\Debug\Negocio.dll.config
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Negocio\bin\Debug\Negocio.dll
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Negocio\bin\Debug\Negocio.pdb
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Negocio\bin\Debug\Datos.dll
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Negocio\bin\Debug\Entidad.dll
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Negocio\bin\Debug\EntityFramework.dll
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Negocio\bin\Debug\EntityFramework.SqlServer.dll
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Negocio\bin\Debug\Datos.pdb
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Negocio\bin\Debug\Entidad.pdb
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Negocio\bin\Debug\EntityFramework.xml
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Negocio\bin\Debug\EntityFramework.SqlServer.xml
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Negocio\bin\Debug\es\EntityFramework.resources.dll
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Negocio\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Negocio\obj\Debug\Negocio.dll
+E:\Documentos\Visual Studio 2015\Projects\Registro de alumnos\Negocio\obj\Debug\Negocio.pdb
+E:\Google Drive\Mis Documentos\Visual Studio 2017\Projects\Registro de alumnos\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+E:\Google Drive\Mis Documentos\Visual Studio 2017\Projects\Registro de alumnos\Negocio\obj\Debug\Negocio.dll
+E:\Google Drive\Mis Documentos\Visual Studio 2017\Projects\Registro de alumnos\Negocio\obj\Debug\Negocio.pdb
+E:\Google Drive\Mis Documentos\Visual Studio 2017\Projects\Registro de alumnos\Negocio\bin\Debug\Negocio.dll.config
+E:\Google Drive\Mis Documentos\Visual Studio 2017\Projects\Registro de alumnos\Negocio\bin\Debug\Negocio.dll
+E:\Google Drive\Mis Documentos\Visual Studio 2017\Projects\Registro de alumnos\Negocio\bin\Debug\Negocio.pdb
+E:\Google Drive\Mis Documentos\Visual Studio 2017\Projects\Registro de alumnos\Negocio\bin\Debug\Datos.dll
+E:\Google Drive\Mis Documentos\Visual Studio 2017\Projects\Registro de alumnos\Negocio\bin\Debug\Entidad.dll
+E:\Google Drive\Mis Documentos\Visual Studio 2017\Projects\Registro de alumnos\Negocio\bin\Debug\EntityFramework.dll
+E:\Google Drive\Mis Documentos\Visual Studio 2017\Projects\Registro de alumnos\Negocio\bin\Debug\EntityFramework.SqlServer.dll
+E:\Google Drive\Mis Documentos\Visual Studio 2017\Projects\Registro de alumnos\Negocio\bin\Debug\Datos.pdb
+E:\Google Drive\Mis Documentos\Visual Studio 2017\Projects\Registro de alumnos\Negocio\bin\Debug\Datos.dll.config
+E:\Google Drive\Mis Documentos\Visual Studio 2017\Projects\Registro de alumnos\Negocio\bin\Debug\Entidad.pdb
+E:\Google Drive\Mis Documentos\Visual Studio 2017\Projects\Registro de alumnos\Negocio\bin\Debug\Entidad.dll.config
+E:\Google Drive\Mis Documentos\Visual Studio 2017\Projects\Registro de alumnos\Negocio\bin\Debug\EntityFramework.xml
+E:\Google Drive\Mis Documentos\Visual Studio 2017\Projects\Registro de alumnos\Negocio\bin\Debug\EntityFramework.SqlServer.xml
+E:\Google Drive\Mis Documentos\Visual Studio 2017\Projects\Registro de alumnos\Negocio\bin\Debug\es\EntityFramework.resources.dll
+E:\Google Drive\Mis Documentos\Visual Studio 2017\Projects\Registro de alumnos\Negocio\bin\Debug\es\EntityFramework.SqlServer.resources.dll
