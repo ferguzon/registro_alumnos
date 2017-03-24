@@ -3,11 +3,14 @@
     <table class="nav-justified">
         <tr>
             <td>
-                <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="Small" ForeColor="#000099" Text="La sesión se ha cerrado correctamente."></asp:Label>
+                <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="Small" ForeColor="#000099" Text="La sesión se ha cerrado correctamente. El usuario será redirigido a la página de inicio."></asp:Label>
             </td>
         </tr>
         <tr>
-            <td>&nbsp;</td>
+            <td>
+                <asp:Timer ID="Timer1" runat="server">
+                </asp:Timer>
+            </td>
         </tr>
         <tr>
             <td>

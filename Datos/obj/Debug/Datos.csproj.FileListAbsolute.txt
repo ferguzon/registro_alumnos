@@ -27,3 +27,17 @@ E:\Google Drive\Mis Documentos\Visual Studio 2017\Projects\Registro de alumnos\D
 E:\Google Drive\Mis Documentos\Visual Studio 2017\Projects\Registro de alumnos\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
 E:\Google Drive\Mis Documentos\Visual Studio 2017\Projects\Registro de alumnos\Datos\obj\Debug\Datos.dll
 E:\Google Drive\Mis Documentos\Visual Studio 2017\Projects\Registro de alumnos\Datos\obj\Debug\Datos.pdb
+E:\Descargas\Registro de alumnos\Datos\bin\Debug\Datos.dll.config
+E:\Descargas\Registro de alumnos\Datos\bin\Debug\Datos.dll
+E:\Descargas\Registro de alumnos\Datos\bin\Debug\Datos.pdb
+E:\Descargas\Registro de alumnos\Datos\bin\Debug\Entidad.dll
+E:\Descargas\Registro de alumnos\Datos\bin\Debug\EntityFramework.dll
+E:\Descargas\Registro de alumnos\Datos\bin\Debug\EntityFramework.SqlServer.dll
+E:\Descargas\Registro de alumnos\Datos\bin\Debug\Entidad.pdb
+E:\Descargas\Registro de alumnos\Datos\bin\Debug\EntityFramework.xml
+E:\Descargas\Registro de alumnos\Datos\bin\Debug\EntityFramework.SqlServer.xml
+E:\Descargas\Registro de alumnos\Datos\bin\Debug\es\EntityFramework.resources.dll
+E:\Descargas\Registro de alumnos\Datos\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+E:\Descargas\Registro de alumnos\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+E:\Descargas\Registro de alumnos\Datos\obj\Debug\Datos.dll
+E:\Descargas\Registro de alumnos\Datos\obj\Debug\Datos.pdb

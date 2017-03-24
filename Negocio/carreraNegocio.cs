@@ -122,5 +122,29 @@ namespace Negocio
 
         } // fin del método obtenerCarreraNegocio
 
+        public List<Entidad.Carrera> obtenerListaCarreras()
+        {
+
+            Datos.carreraDatos dc = null;
+            List<Entidad.Carrera> carrera = null;
+
+            try
+            {
+
+                dc = new Datos.carreraDatos();
+                carrera = dc.obtenerCarreraDatos();
+
+                return carrera;
+
+            }
+            catch (Exception err)
+            {
+
+                throw err;
+            }
+
+
+        } // fin del método obtenerListaCarreras
+
     }
 }

@@ -13,9 +13,10 @@ namespace Presentacion
         {
 
             if (Session["s_inicioSesion"] != null)
-            {                
+            {    
+                   
 
-            if (!IsPostBack)
+                if (!IsPostBack)
                 {
 
                     lblFechaProceso.Text = DateTime.Now.ToString();

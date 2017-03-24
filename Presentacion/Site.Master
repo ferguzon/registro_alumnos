@@ -103,11 +103,16 @@ border-style:none;}
             <li><a href="#">Carreras</a>
                 <ul> <li><a href="wfCarreraAgregar.aspx">Agregar carrera</a></li>    
                 <li><a href="wfCarreraMostrar.aspx">Mostrar carrera</a></li> </ul>                  
-            </li>              
+            </li>      
+                
+            <li><a href="#">Informes</a>
+                <ul> <li><a href="wfCarreraReporteListado.aspx">Listado de carreras</a></li>    
+                </ul>                  
+            </li>   
 
             <li><a href="#">Sistema</a>
                 <ul> <li><a href="Default.aspx">Volver al inicio</a></li>
-                <ul> <li><a href="wfSesionCerrar.aspx">Cerrar sesión</a></li>                      
+                 <li><a href="wfSesionCerrar.aspx">Cerrar sesión</a></li></ul>                      
             </li>      
                      
         </ul>
@@ -142,9 +147,11 @@ border-style:none;}
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>Universidad Centroamericana, Managua</p>
+                <p>&nbsp;</p>
             </footer>
         </div>
     </form>
+    <p class="text-center">
+        &nbsp;</p>
 </body>
 </html>

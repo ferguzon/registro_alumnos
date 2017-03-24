@@ -78,6 +78,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -213,6 +214,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Imagenes\Logotipo UCA para FB y correo.png" />
+    <Content Include="wfCarreraReporteListado.aspx" />
     <Content Include="wfSesionCerrar.aspx" />
     <Content Include="wfUsuarioCambioClave.aspx" />
     <Content Include="wfCarreraAgregar.aspx" />
@@ -429,6 +431,13 @@
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
+    <Compile Include="wfCarreraReporteListado.aspx.cs">
+      <DependentUpon>wfCarreraReporteListado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfCarreraReporteListado.aspx.designer.cs">
+      <DependentUpon>wfCarreraReporteListado.aspx</DependentUpon>
+    </Compile>
     <Compile Include="wfSesionCerrar.aspx.cs">
       <DependentUpon>wfSesionCerrar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -491,6 +500,9 @@
       <Project>{895b5816-11d6-418b-8274-4cdce10d0c05}</Project>
       <Name>Negocio</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="rptCarrerasListado.rdlc" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

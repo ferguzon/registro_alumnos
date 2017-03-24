@@ -11,6 +11,11 @@ namespace Presentacion
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["s_inicioSesion"] == null)
+            {
+                Response.Redirect("wfSesionIniciar.aspx");
+
+            } // if que comprueba validez de la sesión 
 
         }
     }

@@ -78,5 +78,29 @@ namespace Datos
 
         } // obtenerUltimoIDCarrera
 
+        public List<Entidad.Carrera> obtenerCarreraDatos()
+        {
+
+            Entidad.CursoNetEntities dc = null;
+            List<Entidad.Carrera> carrera = null;
+
+            try
+            {
+
+                dc = new Entidad.CursoNetEntities();
+
+                carrera = dc.Carrera.ToList();
+
+                return carrera;
+
+            }
+            catch (Exception err)
+            {
+
+                throw err;
+            }
+
+        } // fin obtenerCarreraDatos
+
     }
 }

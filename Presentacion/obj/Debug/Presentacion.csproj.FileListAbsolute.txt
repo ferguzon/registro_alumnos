@@ -254,9 +254,7 @@ E:\Descargas\Registro de alumnos\Presentacion\bin\System.Web.Providers.dll
 E:\Descargas\Registro de alumnos\Presentacion\bin\WebGrease.dll
 E:\Descargas\Registro de alumnos\Presentacion\bin\Datos.dll
 E:\Descargas\Registro de alumnos\Presentacion\bin\Entidad.pdb
-E:\Descargas\Registro de alumnos\Presentacion\bin\Entidad.dll.config
 E:\Descargas\Registro de alumnos\Presentacion\bin\Negocio.pdb
-E:\Descargas\Registro de alumnos\Presentacion\bin\Negocio.dll.config
 E:\Descargas\Registro de alumnos\Presentacion\bin\Microsoft.AI.DependencyCollector.xml
 E:\Descargas\Registro de alumnos\Presentacion\bin\Microsoft.AI.ServerTelemetryChannel.xml
 E:\Descargas\Registro de alumnos\Presentacion\bin\Microsoft.AI.Web.xml
@@ -283,7 +281,6 @@ E:\Descargas\Registro de alumnos\Presentacion\bin\Microsoft.Owin.Security.Twitte
 E:\Descargas\Registro de alumnos\Presentacion\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 E:\Descargas\Registro de alumnos\Presentacion\bin\Microsoft.Owin.Security.OAuth.xml
 E:\Descargas\Registro de alumnos\Presentacion\bin\Datos.pdb
-E:\Descargas\Registro de alumnos\Presentacion\bin\Datos.dll.config
 E:\Descargas\Registro de alumnos\Presentacion\bin\es\System.Web.Optimization.resources.dll
 E:\Descargas\Registro de alumnos\Presentacion\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
 E:\Descargas\Registro de alumnos\Presentacion\bin\es\EntityFramework.resources.dll
@@ -301,3 +298,18 @@ E:\Descargas\Registro de alumnos\Presentacion\bin\es\Microsoft.Owin.Security.Mic
 E:\Descargas\Registro de alumnos\Presentacion\obj\Debug\Presentacion.csprojResolveAssemblyReference.cache
 E:\Descargas\Registro de alumnos\Presentacion\obj\Debug\Presentacion.dll
 E:\Descargas\Registro de alumnos\Presentacion\obj\Debug\Presentacion.pdb
+E:\Descargas\Registro de alumnos\Presentacion\obj\Debug\RdlCompile.cache
+E:\Descargas\Registro de alumnos\Presentacion\obj\Debug\RdlCompile.compiled
+E:\Descargas\Registro de alumnos\Presentacion\bin\Microsoft.ReportViewer.WebForms.dll
+E:\Descargas\Registro de alumnos\Presentacion\bin\Microsoft.SqlServer.Types.dll
+E:\Descargas\Registro de alumnos\Presentacion\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+E:\Descargas\Registro de alumnos\Presentacion\bin\de\Microsoft.SqlServer.Types.resources.dll
+E:\Descargas\Registro de alumnos\Presentacion\bin\es\Microsoft.SqlServer.Types.resources.dll
+E:\Descargas\Registro de alumnos\Presentacion\bin\fr\Microsoft.SqlServer.Types.resources.dll
+E:\Descargas\Registro de alumnos\Presentacion\bin\it\Microsoft.SqlServer.Types.resources.dll
+E:\Descargas\Registro de alumnos\Presentacion\bin\ja\Microsoft.SqlServer.Types.resources.dll
+E:\Descargas\Registro de alumnos\Presentacion\bin\ko\Microsoft.SqlServer.Types.resources.dll
+E:\Descargas\Registro de alumnos\Presentacion\bin\pt\Microsoft.SqlServer.Types.resources.dll
+E:\Descargas\Registro de alumnos\Presentacion\bin\ru\Microsoft.SqlServer.Types.resources.dll
+E:\Descargas\Registro de alumnos\Presentacion\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+E:\Descargas\Registro de alumnos\Presentacion\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
