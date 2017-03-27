@@ -120,5 +120,32 @@ namespace Datos
 
         } // fin del método eliminarUsuarioDatos
 
+        public Entidad.Usuarios obtenerUsuarioDatos(int idUsuario)
+        {
+
+            Entidad.CursoNetEntities dc = null;
+            Entidad.Usuarios usuario = null;
+
+            try
+            {
+
+                // obtenemos la información del usuario con base en el parámetro nombreUsuario
+
+                dc = new Entidad.CursoNetEntities();
+                usuario = dc.Usuarios.Where(u => u.Id == idUsuario).FirstOrDefault();
+
+                return usuario;
+
+            }
+            catch (Exception err)
+            {
+
+                throw (err);
+
+            } // fin del try
+
+        } // fin del método obtenerUsuario
+
+
     } // fin de la clase usuarioDatos
 }

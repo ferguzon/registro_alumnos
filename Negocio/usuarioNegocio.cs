@@ -193,6 +193,29 @@ namespace Negocio
 
         } // fin del método eliminarUsuarioNegocio
 
+        public string obtenerUsuarioNegocio(int idUsuario)
+        {
+
+            Datos.usuarioDatos dc = null;
+            Entidad.Usuarios usuario = null;
+
+            try
+            {
+
+                dc = new Datos.usuarioDatos();
+                usuario = dc.obtenerUsuarioDatos(idUsuario);
+
+                return usuario.login;
+
+            }
+            catch (Exception err)
+            {
+
+                throw err;
+            }
+
+        } // fin del método obtenerUsuarioNegocio
+
     } // fin de la clase usuarioNegocio
 
 }
