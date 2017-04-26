@@ -1,3 +1,7 @@
+Versión 0.2, 26 de abril de 2017
+
+Se cambia el nombre del botón
+
 Versión 0.1, 26 de abril de 2017
 
 En esta versión, el inicio de sesión se controla de manera apropiada. Además, se impide
