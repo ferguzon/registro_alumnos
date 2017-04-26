@@ -111,7 +111,8 @@ namespace Presentacion
                     carrera.descripcion = txtNombreCarrera.Text.Trim().ToUpper();
                     carrera.fecha_inicio = DateTime.Parse(txtFechaInicio.Text);
                     carrera.fecha_cierre = DateTime.Parse(txtFechaCierre.Text);
-                    carrera.fecha_proceso = DateTime.Parse(lblFechaProceso.Text);
+                    carrera.fecha_proceso = DateTime.Now;
+                    
                     carrera.estado = 1;
 
                     dc.guardarCarreraNegocio(carrera);

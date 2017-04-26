@@ -19,7 +19,7 @@
                 <tr>
                     <td style="width: 481px">Fecha de inicio</td>
                     <td colspan="2">
-                        <asp:TextBox ID="txtFechaInicio" runat="server" TextMode="Date"></asp:TextBox>
+                        <asp:TextBox ID="txtFechaInicio" runat="server"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
