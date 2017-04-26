@@ -9,7 +9,7 @@
                         <asp:TextBox ID="txtNombreCarrera" runat="server" Width="355px"></asp:TextBox>
                     </td>
                     <td>
-                        <asp:Button ID="btnMostrarInformacion" runat="server" OnClick="btnMostrar_Click" Text="Mostrar información" />
+                        <asp:Button ID="btnMostrarInformacion" runat="server" OnClick="btnMostrar_Click" Text="Mostrar" />
                     </td>
                 </tr>
                 <tr>

@@ -51,13 +51,13 @@ namespace Presentacion
                 if (carrera.estado == 1)
                 {
 
-                    lblEStado.Text = "Activo";
+                    lblEStado.Text = "No está activa";
 
                 }
                 else
                 {
 
-                    lblEStado.Text = "Inactivo";
+                    lblEStado.Text = "Está inactiva";
 
                 }
                          
