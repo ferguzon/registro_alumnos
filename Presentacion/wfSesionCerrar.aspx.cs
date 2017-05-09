@@ -24,9 +24,11 @@ namespace Presentacion
                 Session.Remove("s_idUsuario");
                 Session.Remove("s_carreraAsignatura");
 
-            }
+                Session.Add("s_Redirigir", 1);                                             
 
-            
+            } // fin del if
+
+
 
         }
 
@@ -34,6 +36,24 @@ namespace Presentacion
         {
 
             Response.Redirect("wfSesionIniciar.aspx");
+
+        }
+
+        //protected void Timer1_Tick(object sender, EventArgs e)
+        //{
+
+        //}
+
+        protected void Timer1_Tick1(object sender, EventArgs e)
+        {
+
+            lblTiempo.Text = Session["s_Redirigir"].ToString();                     
+
+            int value = (int)Session["s_Redirigir"];
+
+            value++;
+
+            Session["s_Redirigir"] = value;
 
         }
     }
