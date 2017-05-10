@@ -12,23 +12,21 @@ namespace Presentacion
         protected void Page_Load(object sender, EventArgs e)
         {
 
-            if (Session["s_inicioSesion"] == null)
-            {
-                Response.Redirect("wfSesionIniciar.aspx");
-            }
-            else
+            if (!IsPostBack)
             {
 
-                Session.Remove("s_inicioSesion");
-                Session.Remove("s_usuarioCambioClave");
-                Session.Remove("s_idUsuario");
-                Session.Remove("s_carreraAsignatura");
+                if (Session["s_inicioSesion"] != null)
+                {
+                    Session.Remove("s_inicioSesion");
+                    Session.Remove("s_usuarioCambioClave");
+                    Session.Remove("s_idUsuario");
+                    Session.Remove("s_carreraAsignatura");
 
-                Session.Add("s_Redirigir", 1);                                             
+                    Session.Add("s_Redirigir", 1);
 
-            } // fin del if
+                } // fin del if
 
-
+            } // fin del if isPostBack
 
         }
 
@@ -47,14 +45,24 @@ namespace Presentacion
         protected void Timer1_Tick1(object sender, EventArgs e)
         {
 
-            lblTiempo.Text = Session["s_Redirigir"].ToString();                     
+            //lblTiempo.Text = Session["s_Redirigir"].ToString();
 
-            int value = (int)Session["s_Redirigir"];
+            //int value = (int)Session["s_Redirigir"];
 
-            value++;
+            //value++;
 
-            Session["s_Redirigir"] = value;
+            //Session["s_Redirigir"] = value;
+
+            //if (value > 3)
+            //{
+
+            //    Response.Redirect("wfSesionIniciar.aspx");
+
+            //} // if
+
+            Response.Redirect("wfSesionIniciar.aspx");
+
+        } // fin del timer1
 
         }
-    }
 }
