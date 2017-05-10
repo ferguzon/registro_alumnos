@@ -12,14 +12,14 @@
         </tr>
         <tr>
             <td>
-                <asp:Timer ID="Timer1" runat="server" Interval="1000" OnTick="Timer1_Tick1">
+                <asp:Timer ID="Timer1" runat="server" Interval="3000" OnTick="Timer1_Tick1">
                 </asp:Timer>
             </td>
         </tr>
         <tr>
             <td>
                 <asp:Button ID="btnRegresar" runat="server" OnClick="btnRegresar_Click" Text="Regresar" />
-                <asp:Label ID="lblTiempo" runat="server" Text="Label"></asp:Label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
         </tr>
     </table>

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Transactions;
 
 namespace Datos
 {
@@ -40,10 +41,24 @@ namespace Datos
             try
             {
 
-                dc = new Entidad.CursoNetEntities();
+                // Implementamos transacciones para asegurar que la información
+                // se almacene correctamente. Para ello, agregar la referencia
+                // "using System.Transactions" y crear un nuevo objeto de tipo
+                // TransactionScope. Al terminar la transacción, hacer un 
+                // ts.complete.
 
-                dc.Carrera.Add(carrera);
-                dc.SaveChanges();
+                using (TransactionScope ts = new TransactionScope())
+                {
+
+                    dc = new Entidad.CursoNetEntities();
+
+                    dc.Carrera.Add(carrera);
+                    dc.SaveChanges();
+
+                    ts.Complete();
+
+                }
+
 
             }
             catch (Exception err)
